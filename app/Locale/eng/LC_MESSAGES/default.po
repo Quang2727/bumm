@@ -1,0 +1,36 @@
+
+#: Common
+
+msgid "C00000_ERR_MSG000"
+msgstr "Save data Success"
+
+msgid "C00000_ERR_MSG001"
+msgstr "Có lỗi xảy ra không thể thực hiện"
+
+msgid "C00000_ERR_MSG002"
+msgstr "Can not delete data"
+
+msgid "C00000_ERR_MSG003"
+msgstr "you must login"
+
+msgid "A00000_ERR_MSG002"
+msgstr "Username đã tồn tại"
+
+msgid "A00000_ERR_MSG003"
+msgstr "Email đã tồn tại"
+ 
+
+#: Controller/UserController.php: A00000
+
+msgid "A00000_ERR_MSG001"
+msgstr "User Name And Password not legal"
+
+
+msgid "A00000_ERR_MSG001"
+msgstr "User Name And Password not legal"
+
+
+#: Controller/TourController.php: B00000
+
+
+
