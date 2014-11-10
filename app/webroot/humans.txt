@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Shin -- Chef Developer
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    CakePHP
+    HTML5, CSS3
+    jQuery, Modernizr
