@@ -11,9 +11,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <?php echo $this->Html->meta('icon'/*, 'favicon.gif', array('type' => 'image/gif')*/); ?>
 
-        <title><?php echo $title_for_layout; ?> - ABAM App</title>
-        <meta name="description" content="<?php echo @$description_for_layout; ?>">
+        <title><?php echo $title_for_layout; ?></title>
         <?php echo $this->fetch('meta'); ?>
+        <meta name="description" content="<?php echo @$description_for_layout; ?>">
         <meta name="viewport" content="initial-scale=1,maximum-scale=1">
         <meta name="mobile-web-app-capable" content="yes">
 
@@ -23,14 +23,14 @@
         </script>
 
         <?php
-            echo $this->Html->css('vendor/bootstrap.min');
-            echo $this->Html->css('vendor/font-awesome.min');
-            echo $this->Html->css('main');
+            echo $this->Html->css('/css/vendor/bootstrap.min');
+            echo $this->Html->css('/css/vendor/font-awesome.min');
+            echo $this->Html->css('/css/main');
 
             echo $this->fetch('css');
 
-            echo $this->Html->script('vendor/modernizr-2.6.2.min');
-            echo $this->Html->script('vendor/jquery-1.11.1.min');
+            echo $this->Html->script('/js/vendor/modernizr-2.6.2.min');
+            echo $this->Html->script('/js/vendor/jquery-1.11.1.min');
         ?>
     </head>
 
@@ -75,7 +75,7 @@
         <?php echo $this->Html->link(
             '<b class="fa fa-chevron-circle-up"></b>',
             '#Top',
-            array('id' => 'gotoTop', 'class' => '', 'escape' => false)
+            array('id' => 'gotoTop', 'class' => 'hide', 'escape' => false)
         ); ?>
         <!-- End Go to top -->
 
@@ -87,10 +87,10 @@
 
         <!-- Start Scripts -->
         <?php
-            echo $this->Html->script('vendor/bootstrap.min');
-            echo $this->Html->script('social');
-            echo $this->Html->script('plugins');
-            echo $this->Html->script('main');
+            echo $this->Html->script('/js/vendor/bootstrap.min');
+            echo $this->Html->script('/js/social');
+            echo $this->Html->script('/js/plugins');
+            echo $this->Html->script('/js/main');
 
             echo $this->fetch('script');
         ?>
